@@ -8,18 +8,15 @@ package com.mycompany.projectluasbangunkomplek;
  *
  * @author Zefanya A.N
  */
-public class Lingkaran {
-    double jejari;
+public class Persegi {
+    double sisi;
     
-Lingkaran(double a){
- this.jejari = a;   
+Persegi (double a){
+    this.sisi = a;
 }
-
-void outPut(){
-    double luas = 3.14 * this.jejari * this.jejari;
-    System.out.println("Hitung Luas Lingkaran"+luas);
-    System.out.println("Hitung jejari"+this.jejari);   
+void output(){
+    double luas = 4 * this.sisi;
+     System.out.println("Hitung Luas Persegi"+luas);
+     System.out.println("Hitung sisi"+this.sisi);
 }
 }
-
-
